@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="OS" value="os x"></parameter>
+    <parameter name="browserName" value="firefox"></parameter>
+    <parameter name="url" value="https://www.facebook.com/"></parameter>
+    <test name="Smoke">
+        <classes>
+            <class name="testHome.HomePageTest"></class>
+        </classes>
+    </test>
+
+</suite>
